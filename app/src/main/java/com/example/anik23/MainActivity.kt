@@ -29,12 +29,12 @@ class MainActivity : AppCompatActivity() {
 
         val products = listOf(
 
-            Product("HeadePhone", "MRP 11,500 ৳", R.drawable.headphone),
-            Product("Camera", "MRP 11,000 ৳", R.drawable.camera),
+            Product("HeadePhone", "MRP 500 ", R.drawable.headphone),
+            Product("Camera", "MRP 11,000 ", R.drawable.camera),
 
-            Product("Light", "MRP 25,000 ৳", R.drawable.light),
+            Product("Light", "MRP 5,000TK ", R.drawable.light),
 
-            Product("Sirum", "MRP 18,500 ৳", R.drawable.sirum)
+            Product("Sirum", "MRP 1000TK", R.drawable.sirum)
         )
 
         binding.recyclerViewProducts.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
