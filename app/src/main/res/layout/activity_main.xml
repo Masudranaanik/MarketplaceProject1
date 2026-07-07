@@ -14,13 +14,11 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <!-- স্লাইডার -->
             <androidx.viewpager2.widget.ViewPager2
                 android:id="@+id/viewPager"
                 android:layout_width="match_parent"
                 android:layout_height="200dp" />
 
-            <!-- টেক্সট -->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -48,8 +46,6 @@
                 android:textSize="12sp"
                 android:layout_marginBottom="16dp"
                 android:textColor="#757575"/>
-
-            <!-- ডানদিকে স্ক্রল হওয়া প্রোডাক্ট লিস্ট -->
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerViewProducts"
                 android:layout_width="match_parent"
@@ -61,7 +57,6 @@
         </LinearLayout>
     </ScrollView>
 
-    <!-- নিচের মেনুবার -->
     <LinearLayout
         android:id="@+id/bottomNav"
         android:layout_width="match_parent"
